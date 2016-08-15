@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3A412F1D6181ED000738F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A412E1D6181ED000738F2 /* AppDelegate.swift */; };
+		FC3A41311D6181ED000738F2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41301D6181ED000738F2 /* FirstViewController.swift */; };
+		FC3A41331D6181ED000738F2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41321D6181ED000738F2 /* SecondViewController.swift */; };
+		FC3A41361D6181ED000738F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3A41341D6181ED000738F2 /* Main.storyboard */; };
+		FC3A41381D6181ED000738F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3A41371D6181ED000738F2 /* Assets.xcassets */; };
+		FC3A413B1D6181ED000738F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3A41391D6181ED000738F2 /* LaunchScreen.storyboard */; };
+		FC3A41461D6181ED000738F2 /* TFOWepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41451D6181ED000738F2 /* TFOWepoTests.swift */; };
+		FC3A41511D6181ED000738F2 /* TFOWepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41501D6181ED000738F2 /* TFOWepoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC3A41421D6181ED000738F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3A41231D6181ED000738F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3A412A1D6181ED000738F2;
+			remoteInfo = TFOWepo;
+		};
+		FC3A414D1D6181ED000738F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3A41231D6181ED000738F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3A412A1D6181ED000738F2;
+			remoteInfo = TFOWepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC3A412B1D6181ED000738F2 /* TFOWepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFOWepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3A412E1D6181ED000738F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC3A41301D6181ED000738F2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FC3A41321D6181ED000738F2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FC3A41351D6181ED000738F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC3A41371D6181ED000738F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC3A413A1D6181ED000738F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC3A413C1D6181ED000738F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3A41411D6181ED000738F2 /* TFOWepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFOWepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3A41451D6181ED000738F2 /* TFOWepoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFOWepoTests.swift; sourceTree = "<group>"; };
+		FC3A41471D6181ED000738F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3A414C1D6181ED000738F2 /* TFOWepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFOWepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3A41501D6181ED000738F2 /* TFOWepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFOWepoUITests.swift; sourceTree = "<group>"; };
+		FC3A41521D6181ED000738F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3A41281D6181ED000738F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3A413E1D6181ED000738F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3A41491D6181ED000738F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3A41221D6181ED000738F2 = {
+			isa = PBXGroup;
+			children = (
+				FC3A412D1D6181ED000738F2 /* TFOWepo */,
+				FC3A41441D6181ED000738F2 /* TFOWepoTests */,
+				FC3A414F1D6181ED000738F2 /* TFOWepoUITests */,
+				FC3A412C1D6181ED000738F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3A412C1D6181ED000738F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A412B1D6181ED000738F2 /* TFOWepo.app */,
+				FC3A41411D6181ED000738F2 /* TFOWepoTests.xctest */,
+				FC3A414C1D6181ED000738F2 /* TFOWepoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3A412D1D6181ED000738F2 /* TFOWepo */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A412E1D6181ED000738F2 /* AppDelegate.swift */,
+				FC3A41301D6181ED000738F2 /* FirstViewController.swift */,
+				FC3A41321D6181ED000738F2 /* SecondViewController.swift */,
+				FC3A41341D6181ED000738F2 /* Main.storyboard */,
+				FC3A41371D6181ED000738F2 /* Assets.xcassets */,
+				FC3A41391D6181ED000738F2 /* LaunchScreen.storyboard */,
+				FC3A413C1D6181ED000738F2 /* Info.plist */,
+			);
+			path = TFOWepo;
+			sourceTree = "<group>";
+		};
+		FC3A41441D6181ED000738F2 /* TFOWepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A41451D6181ED000738F2 /* TFOWepoTests.swift */,
+				FC3A41471D6181ED000738F2 /* Info.plist */,
+			);
+			path = TFOWepoTests;
+			sourceTree = "<group>";
+		};
+		FC3A414F1D6181ED000738F2 /* TFOWepoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A41501D6181ED000738F2 /* TFOWepoUITests.swift */,
+				FC3A41521D6181ED000738F2 /* Info.plist */,
+			);
+			path = TFOWepoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3A412A1D6181ED000738F2 /* TFOWepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3A41551D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepo" */;
+			buildPhases = (
+				FC3A41271D6181ED000738F2 /* Sources */,
+				FC3A41281D6181ED000738F2 /* Frameworks */,
+				FC3A41291D6181ED000738F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFOWepo;
+			productName = TFOWepo;
+			productReference = FC3A412B1D6181ED000738F2 /* TFOWepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC3A41401D6181ED000738F2 /* TFOWepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3A41581D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepoTests" */;
+			buildPhases = (
+				FC3A413D1D6181ED000738F2 /* Sources */,
+				FC3A413E1D6181ED000738F2 /* Frameworks */,
+				FC3A413F1D6181ED000738F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3A41431D6181ED000738F2 /* PBXTargetDependency */,
+			);
+			name = TFOWepoTests;
+			productName = TFOWepoTests;
+			productReference = FC3A41411D6181ED000738F2 /* TFOWepoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC3A414B1D6181ED000738F2 /* TFOWepoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3A415B1D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepoUITests" */;
+			buildPhases = (
+				FC3A41481D6181ED000738F2 /* Sources */,
+				FC3A41491D6181ED000738F2 /* Frameworks */,
+				FC3A414A1D6181ED000738F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3A414E1D6181ED000738F2 /* PBXTargetDependency */,
+			);
+			name = TFOWepoUITests;
+			productName = TFOWepoUITests;
+			productReference = FC3A414C1D6181ED000738F2 /* TFOWepoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3A41231D6181ED000738F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "DIG Productions";
+				TargetAttributes = {
+					FC3A412A1D6181ED000738F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FC3A41401D6181ED000738F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FC3A412A1D6181ED000738F2;
+					};
+					FC3A414B1D6181ED000738F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FC3A412A1D6181ED000738F2;
+					};
+				};
+			};
+			buildConfigurationList = FC3A41261D6181ED000738F2 /* Build configuration list for PBXProject "TFOWepo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3A41221D6181ED000738F2;
+			productRefGroup = FC3A412C1D6181ED000738F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3A412A1D6181ED000738F2 /* TFOWepo */,
+				FC3A41401D6181ED000738F2 /* TFOWepoTests */,
+				FC3A414B1D6181ED000738F2 /* TFOWepoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3A41291D6181ED000738F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3A413B1D6181ED000738F2 /* LaunchScreen.storyboard in Resources */,
+				FC3A41381D6181ED000738F2 /* Assets.xcassets in Resources */,
+				FC3A41361D6181ED000738F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3A413F1D6181ED000738F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3A414A1D6181ED000738F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3A41271D6181ED000738F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3A41331D6181ED000738F2 /* SecondViewController.swift in Sources */,
+				FC3A412F1D6181ED000738F2 /* AppDelegate.swift in Sources */,
+				FC3A41311D6181ED000738F2 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3A413D1D6181ED000738F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3A41461D6181ED000738F2 /* TFOWepoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3A41481D6181ED000738F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3A41511D6181ED000738F2 /* TFOWepoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC3A41431D6181ED000738F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3A412A1D6181ED000738F2 /* TFOWepo */;
+			targetProxy = FC3A41421D6181ED000738F2 /* PBXContainerItemProxy */;
+		};
+		FC3A414E1D6181ED000738F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3A412A1D6181ED000738F2 /* TFOWepo */;
+			targetProxy = FC3A414D1D6181ED000738F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC3A41341D6181ED000738F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3A41351D6181ED000738F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC3A41391D6181ED000738F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3A413A1D6181ED000738F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3A41531D6181ED000738F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC3A41541D6181ED000738F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3A41561D6181ED000738F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFOWepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.TFOWepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC3A41571D6181ED000738F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFOWepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.TFOWepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC3A41591D6181ED000738F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFOWepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.TFOWepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFOWepo.app/TFOWepo";
+			};
+			name = Debug;
+		};
+		FC3A415A1D6181ED000738F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFOWepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.TFOWepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFOWepo.app/TFOWepo";
+			};
+			name = Release;
+		};
+		FC3A415C1D6181ED000738F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFOWepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.TFOWepoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFOWepo;
+			};
+			name = Debug;
+		};
+		FC3A415D1D6181ED000738F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFOWepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.TFOWepoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFOWepo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3A41261D6181ED000738F2 /* Build configuration list for PBXProject "TFOWepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3A41531D6181ED000738F2 /* Debug */,
+				FC3A41541D6181ED000738F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3A41551D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3A41561D6181ED000738F2 /* Debug */,
+				FC3A41571D6181ED000738F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC3A41581D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3A41591D6181ED000738F2 /* Debug */,
+				FC3A415A1D6181ED000738F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC3A415B1D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3A415C1D6181ED000738F2 /* Debug */,
+				FC3A415D1D6181ED000738F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC3A41231D6181ED000738F2 /* Project object */;
+}
