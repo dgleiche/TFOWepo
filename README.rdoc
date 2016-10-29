@@ -1,3 +1,3 @@
- == Tutors for Opportunities app
+== Tutors for Opportunities app
  
- This app is being designed to be used by the Westport branch of Tutors for Opportunities. Currently under development.
+This app is being designed to be used by the Westport branch of Tutors for Opportunities. Currently under development.
