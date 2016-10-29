@@ -1,0 +1,6 @@
+framework module Pods_TFOWepo {
+  umbrella header "Pods-TFOWepo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E71DF4CFC65933A56D3FDC /* Pods_TFOWepoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E0241D774BEAEE4DE4F551 /* Pods_TFOWepoTests.framework */; };
+		238E1A90FBFDF3FD351CB0B9 /* Pods_TFOWepo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EA8FF072A3B29127738D81 /* Pods_TFOWepo.framework */; };
 		FC3A412F1D6181ED000738F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A412E1D6181ED000738F2 /* AppDelegate.swift */; };
-		FC3A41311D6181ED000738F2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41301D6181ED000738F2 /* FirstViewController.swift */; };
+		FC3A41311D6181ED000738F2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41301D6181ED000738F2 /* HomeVC.swift */; };
 		FC3A41331D6181ED000738F2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41321D6181ED000738F2 /* SecondViewController.swift */; };
 		FC3A41361D6181ED000738F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3A41341D6181ED000738F2 /* Main.storyboard */; };
 		FC3A41381D6181ED000738F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3A41371D6181ED000738F2 /* Assets.xcassets */; };
 		FC3A413B1D6181ED000738F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3A41391D6181ED000738F2 /* LaunchScreen.storyboard */; };
 		FC3A41461D6181ED000738F2 /* TFOWepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41451D6181ED000738F2 /* TFOWepoTests.swift */; };
 		FC3A41511D6181ED000738F2 /* TFOWepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41501D6181ED000738F2 /* TFOWepoUITests.swift */; };
+		FC3A415F1D666F96000738F2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A415E1D666F96000738F2 /* LoginVC.swift */; };
+		FC3A41631D66A351000738F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3A41621D66A351000738F2 /* GoogleService-Info.plist */; };
+		FC3A416A1D66AE69000738F2 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A41691D66AE69000738F2 /* UserManager.swift */; };
+		FC3A416C1D66AF0B000738F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A416B1D66AF0B000738F2 /* User.swift */; };
+		FC3A416F1D66EA13000738F2 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A416E1D66EA13000738F2 /* UIImageExtension.swift */; };
+		FC6CC9A5D32B542EE0E55B59 /* Pods_TFOWepoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263CDDB0552FF690BA0840E3 /* Pods_TFOWepoUITests.framework */; };
+		FC9A2D391D6A8ADA00436546 /* RequestTutorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A2D381D6A8ADA00436546 /* RequestTutorVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D7AA08BC9B482E8751A77B /* Pods-TFOWepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFOWepo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFOWepo/Pods-TFOWepo.debug.xcconfig"; sourceTree = "<group>"; };
+		10EA8FF072A3B29127738D81 /* Pods_TFOWepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFOWepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDA2D37F374A8D0948D2FDE /* Pods-TFOWepoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFOWepoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFOWepoTests/Pods-TFOWepoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		263CDDB0552FF690BA0840E3 /* Pods_TFOWepoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFOWepoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC1687FC656A423EE9579AF /* Pods-TFOWepo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFOWepo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFOWepo/Pods-TFOWepo.release.xcconfig"; sourceTree = "<group>"; };
+		B8E0241D774BEAEE4DE4F551 /* Pods_TFOWepoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFOWepoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67722B872E94B9AF1FD1680 /* Pods-TFOWepoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFOWepoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFOWepoUITests/Pods-TFOWepoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D463A15EA65204D75AA09BCD /* Pods-TFOWepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFOWepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFOWepoTests/Pods-TFOWepoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E73C93E2FB0BDAE1D7BC2CD1 /* Pods-TFOWepoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFOWepoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFOWepoUITests/Pods-TFOWepoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC3A412B1D6181ED000738F2 /* TFOWepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFOWepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3A412E1D6181ED000738F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC3A41301D6181ED000738F2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FC3A412E1D6181ED000738F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TFOWepo/AppDelegate.swift; sourceTree = "<group>"; };
+		FC3A41301D6181ED000738F2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FC3A41321D6181ED000738F2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FC3A41351D6181ED000738F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC3A41371D6181ED000738F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,13 @@
 		FC3A414C1D6181ED000738F2 /* TFOWepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFOWepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3A41501D6181ED000738F2 /* TFOWepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFOWepoUITests.swift; sourceTree = "<group>"; };
 		FC3A41521D6181ED000738F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3A415E1D666F96000738F2 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FC3A41621D66A351000738F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC3A41651D66A4CA000738F2 /* TFOWepo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFOWepo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC3A41691D66AE69000738F2 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		FC3A416B1D66AF0B000738F2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FC3A416E1D66EA13000738F2 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		FC9A2D381D6A8ADA00436546 /* RequestTutorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTutorVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238E1A90FBFDF3FD351CB0B9 /* Pods_TFOWepo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E71DF4CFC65933A56D3FDC /* Pods_TFOWepoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +97,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6CC9A5D32B542EE0E55B59 /* Pods_TFOWepoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16E1729DE7096D49E23B0FFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10EA8FF072A3B29127738D81 /* Pods_TFOWepo.framework */,
+				B8E0241D774BEAEE4DE4F551 /* Pods_TFOWepoTests.framework */,
+				263CDDB0552FF690BA0840E3 /* Pods_TFOWepoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2E9312F576DFD0A8F73CEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06D7AA08BC9B482E8751A77B /* Pods-TFOWepo.debug.xcconfig */,
+				4CC1687FC656A423EE9579AF /* Pods-TFOWepo.release.xcconfig */,
+				1DDA2D37F374A8D0948D2FDE /* Pods-TFOWepoTests.debug.xcconfig */,
+				D463A15EA65204D75AA09BCD /* Pods-TFOWepoTests.release.xcconfig */,
+				E73C93E2FB0BDAE1D7BC2CD1 /* Pods-TFOWepoUITests.debug.xcconfig */,
+				C67722B872E94B9AF1FD1680 /* Pods-TFOWepoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC3A41221D6181ED000738F2 = {
 			isa = PBXGroup;
 			children = (
+				FC3A412E1D6181ED000738F2 /* AppDelegate.swift */,
+				FC3A41651D66A4CA000738F2 /* TFOWepo-Bridging-Header.h */,
 				FC3A412D1D6181ED000738F2 /* TFOWepo */,
 				FC3A41441D6181ED000738F2 /* TFOWepoTests */,
 				FC3A414F1D6181ED000738F2 /* TFOWepoUITests */,
 				FC3A412C1D6181ED000738F2 /* Products */,
+				DD2E9312F576DFD0A8F73CEF /* Pods */,
+				16E1729DE7096D49E23B0FFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +154,12 @@
 		FC3A412D1D6181ED000738F2 /* TFOWepo */ = {
 			isa = PBXGroup;
 			children = (
-				FC3A412E1D6181ED000738F2 /* AppDelegate.swift */,
-				FC3A41301D6181ED000738F2 /* FirstViewController.swift */,
-				FC3A41321D6181ED000738F2 /* SecondViewController.swift */,
-				FC3A41341D6181ED000738F2 /* Main.storyboard */,
+				FC3A416D1D66EA01000738F2 /* Helpers */,
+				FC3A41681D66AE60000738F2 /* Models */,
+				FC3A41601D666F9F000738F2 /* Views */,
+				FC3A41611D666FA6000738F2 /* Controllers */,
 				FC3A41371D6181ED000738F2 /* Assets.xcassets */,
-				FC3A41391D6181ED000738F2 /* LaunchScreen.storyboard */,
+				FC3A41621D66A351000738F2 /* GoogleService-Info.plist */,
 				FC3A413C1D6181ED000738F2 /* Info.plist */,
 			);
 			path = TFOWepo;
@@ -128,6 +183,43 @@
 			path = TFOWepoUITests;
 			sourceTree = "<group>";
 		};
+		FC3A41601D666F9F000738F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A41341D6181ED000738F2 /* Main.storyboard */,
+				FC3A41391D6181ED000738F2 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FC3A41611D666FA6000738F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A415E1D666F96000738F2 /* LoginVC.swift */,
+				FC3A41301D6181ED000738F2 /* HomeVC.swift */,
+				FC3A41321D6181ED000738F2 /* SecondViewController.swift */,
+				FC9A2D381D6A8ADA00436546 /* RequestTutorVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FC3A41681D66AE60000738F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A41691D66AE69000738F2 /* UserManager.swift */,
+				FC3A416B1D66AF0B000738F2 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FC3A416D1D66EA01000738F2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A416E1D66EA13000738F2 /* UIImageExtension.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC3A41551D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepo" */;
 			buildPhases = (
+				0A59974B106F1B710F9ACE20 /* 📦 Check Pods Manifest.lock */,
 				FC3A41271D6181ED000738F2 /* Sources */,
 				FC3A41281D6181ED000738F2 /* Frameworks */,
 				FC3A41291D6181ED000738F2 /* Resources */,
+				764701F7372928D5FBDEF8E0 /* 📦 Embed Pods Frameworks */,
+				5473356D1B17ED9715A9A308 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC3A41581D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepoTests" */;
 			buildPhases = (
+				76C77259F1B3DB2BDAF31869 /* 📦 Check Pods Manifest.lock */,
 				FC3A413D1D6181ED000738F2 /* Sources */,
 				FC3A413E1D6181ED000738F2 /* Frameworks */,
 				FC3A413F1D6181ED000738F2 /* Resources */,
+				1FA503F8791CD079AC4BA5EC /* 📦 Embed Pods Frameworks */,
+				1D49B9A6BEB640C1ED545AEF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC3A415B1D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepoUITests" */;
 			buildPhases = (
+				00A05AECCC050B6273331E02 /* 📦 Check Pods Manifest.lock */,
 				FC3A41481D6181ED000738F2 /* Sources */,
 				FC3A41491D6181ED000738F2 /* Frameworks */,
 				FC3A414A1D6181ED000738F2 /* Resources */,
+				D5A1A43F7CB64D754A6A58CD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3A413B1D6181ED000738F2 /* LaunchScreen.storyboard in Resources */,
+				FC3A41631D66A351000738F2 /* GoogleService-Info.plist in Resources */,
 				FC3A41381D6181ED000738F2 /* Assets.xcassets in Resources */,
 				FC3A41361D6181ED000738F2 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +355,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00A05AECCC050B6273331E02 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0A59974B106F1B710F9ACE20 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D49B9A6BEB640C1ED545AEF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFOWepoTests/Pods-TFOWepoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA503F8791CD079AC4BA5EC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFOWepoTests/Pods-TFOWepoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5473356D1B17ED9715A9A308 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFOWepo/Pods-TFOWepo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		764701F7372928D5FBDEF8E0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFOWepo/Pods-TFOWepo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C77259F1B3DB2BDAF31869 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A1A43F7CB64D754A6A58CD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFOWepoUITests/Pods-TFOWepoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC3A41271D6181ED000738F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,7 +485,12 @@
 			files = (
 				FC3A41331D6181ED000738F2 /* SecondViewController.swift in Sources */,
 				FC3A412F1D6181ED000738F2 /* AppDelegate.swift in Sources */,
-				FC3A41311D6181ED000738F2 /* FirstViewController.swift in Sources */,
+				FC3A416C1D66AF0B000738F2 /* User.swift in Sources */,
+				FC3A416F1D66EA13000738F2 /* UIImageExtension.swift in Sources */,
+				FC3A415F1D666F96000738F2 /* LoginVC.swift in Sources */,
+				FC3A416A1D66AE69000738F2 /* UserManager.swift in Sources */,
+				FC3A41311D6181ED000738F2 /* HomeVC.swift in Sources */,
+				FC9A2D391D6A8ADA00436546 /* RequestTutorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,28 +632,36 @@
 		};
 		FC3A41561D6181ED000738F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D7AA08BC9B482E8751A77B /* Pods-TFOWepo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TFOWepo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.TFOWepo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TFOWepo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FC3A41571D6181ED000738F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC1687FC656A423EE9579AF /* Pods-TFOWepo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TFOWepo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digprod.TFOWepo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TFOWepo-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		FC3A41591D6181ED000738F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDA2D37F374A8D0948D2FDE /* Pods-TFOWepoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TFOWepoTests/Info.plist;
@@ -437,6 +674,7 @@
 		};
 		FC3A415A1D6181ED000738F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D463A15EA65204D75AA09BCD /* Pods-TFOWepoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TFOWepoTests/Info.plist;
@@ -449,6 +687,7 @@
 		};
 		FC3A415C1D6181ED000738F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73C93E2FB0BDAE1D7BC2CD1 /* Pods-TFOWepoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TFOWepoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +699,7 @@
 		};
 		FC3A415D1D6181ED000738F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67722B872E94B9AF1FD1680 /* Pods-TFOWepoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TFOWepoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +728,7 @@
 				FC3A41571D6181ED000738F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC3A41581D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +737,7 @@
 				FC3A415A1D6181ED000738F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC3A415B1D6181ED000738F2 /* Build configuration list for PBXNativeTarget "TFOWepoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +746,7 @@
 				FC3A415D1D6181ED000738F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
